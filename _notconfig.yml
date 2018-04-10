@@ -5,21 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en"
 title                    : "OneEighteen"
 title_separator          : "-"
 name                     : "Tim"
-description              : "My space on the web."
+description              : "My space on the web"
 url                      : https://timfoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : timfoo/timfoo.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -58,20 +51,16 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : # lunr (default), algolia
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
+alexa_site_verification  :
 yandex_site_verification :
-naver_site_verification  :
+naver-site-verification  :
 
 # Social Sharing
 twitter:
@@ -99,11 +88,10 @@ analytics:
 author:
   name             : "Tim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I build stuff."
+  bio              : "I build stuff"
   location         : "Singapore"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -195,7 +183,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -260,8 +248,10 @@ defaults:
       path: ""
       type: posts
     values:
+      toc: false
+      toc_float: true
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
