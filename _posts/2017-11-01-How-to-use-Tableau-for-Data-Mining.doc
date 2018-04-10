@@ -1,8 +1,8 @@
 ---
 title: "How to use Tableau for Data Mining"
 header:
-  image: /assets/images/data-img.jpg
-  caption: "Photo credit: [**StockSnap.io**](https://stocksnap.io/)"
+  #image: /assets/images/data-img.jpg
+  #caption: "Photo credit: [**StockSnap.io**](https://stocksnap.io/)"
 categories:
   - Tableau
   - Data Mining
