@@ -180,7 +180,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: blog/page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -245,7 +245,7 @@ defaults:
       path: ""
       type: posts
     values:
-      toc: true
+      toc: false
       toc_float: true
       layout: single
       author_profile: false
