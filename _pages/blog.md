@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "Blog"
-layout: archive
-=======
-title: "Posts"
 layout: categories
->>>>>>> 89e12d16e1347c32eb4cf7191db97f6ce323cb2e
 permalink: /blog/
 collection: blog
 author_profile: true
