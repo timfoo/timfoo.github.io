@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "OneEighteen"
+title                    : "Enterprise"
 title_separator          : "-"
 name                     : "Tim"
-description              : "My space on the web."
+description              : "Boldly going where no Tim has gone before."
 url                      : https://timfoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : timfoo/timfoo.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
