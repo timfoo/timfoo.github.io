@@ -5,7 +5,7 @@ header:
   #caption: "Photo credit: [**StockSnap.io**](https://stocksnap.io/)"
 categories:
   - Tableau
-  - Data Mining
+  - Data
 tags:
   - Tableau
   - Data Mining
