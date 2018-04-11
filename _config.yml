@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "OneEighteen"
+title                    : "Enterprise"
 title_separator          : "-"
 name                     : "Tim"
-description              : "My space on the web."
+description              : "Boldly going where no Tim has gone before."
 url                      : https://timfoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : timfoo/timfoo.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Tim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I build stuff."
+  bio              : "Always in beta: Learning, Discovering, Building"
   location         : "Singapore"
   email            :
   uri              :
@@ -194,8 +194,8 @@ sass:
 
 # Outputting
 permalink: /blog/:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
