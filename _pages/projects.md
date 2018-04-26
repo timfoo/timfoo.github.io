@@ -11,4 +11,4 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
 ---
 
-Sample document listing for the collection `_projects`.
+Some projects I've been working on:
